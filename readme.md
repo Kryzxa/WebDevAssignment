@@ -2,9 +2,9 @@
 
 This project is build with HTML, CSS and 'vanilla' Javascript only.
 
-## YOUR NAME HERE
+## Matthew Lin
 
-## GITHUB REPO ADDRESS
+## https://github.com/Kryzxa/WebDevAssignment
 
 Repo located at:
 
