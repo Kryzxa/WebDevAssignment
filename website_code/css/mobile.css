@@ -1,1 +1,137 @@
-/* WONDERFUL MOBILE FIRST CSS HERE */
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .navigationlinks {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #0A437C;
+    padding: 10px 0;
+  }
+
+  .navigationlinks.show {
+    display: flex; 
+  }
+
+  .navigationlinks a {
+    font-size: 16px;
+    padding: 8px 12px;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .burger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin-left: auto;
+  }
+
+  .burger .line {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px 0;
+  }
+
+  .headertitle {
+    margin-left: 0;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .homeimages,
+  .HomeCourseImage,
+  .about-image-course,
+  .about-image-AboutUs,
+  .about-image-Courses {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .image-pair {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .image-pair-courses {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin: 20px auto;
+  }
+
+  .normaltext,
+  .subtext {
+    font-size: 16px;
+    margin-left: 0;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .image-text-row {
+    flex-direction: column;
+    padding: 10px;
+    gap: 15px;
+  }
+
+  .Dcourse-card,
+  .Ccourse-card {
+    max-width: 100%;
+    margin: 10px auto;
+    padding: 15px;
+  }
+
+  .Dcourse-card h2,
+  .Ccourse-card h2 {
+    font-size: 1.5rem;
+  }
+
+  .layout {
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .services,
+  .news-box {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .news-box {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+
+  .image-button {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+
+
+  .footer-text {
+    font-size: 16px;
+    line-height: 1.4;
+    padding: 15px 10px;
+  }
+
+
+  html, body {
+    overflow-x: hidden;
+  }
+}
+
+.image-button:hover {
+transform: translateY(-2px);
+}
